@@ -1,0 +1,82 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 900px;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  margin:auto;
+  margin-top: 30px;
+}
+
+.contenitore-interno{
+  width: 750px;
+  margin:auto;
+}
+
+header, nav{
+  text-align: center;
+}
+
+header > img{
+  height: 90px;
+  width: 200px;
+  margin-top: 60px;
+}
+
+h2{
+  color: #39ff14;
+}
+
+nav > input{
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: white;
+  text-align: center;
+}
+
+nav{
+  background-color: #39ff14;
+  padding: 10px;
+}
+
+p{
+  margin: 0;
+}
+
+h3{
+  margin-bottom: 0;
+}
+
+main > div{
+  color: white;
+  font-size: 15px;
+}
+
+p, .stato{
+  border-radius: 5px;
+  height: 25px;
+}
+
+.stato-gino{
+  background-color: #f0a637;
+  width: 300px;
+}
+
+.stato-mike{
+  background-color: #1aab0f;
+  width: 500px;
+}
+
+.stato-fede{
+  background-color: #d63a2f;
+  width: 150px;
+}
+
+.arrow:before{
+  content: &#8614;
+}
